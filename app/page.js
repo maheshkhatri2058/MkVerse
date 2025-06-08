@@ -5,6 +5,66 @@ import Footer from './uI/Footer';
 import Image from 'next/image';
 
 export default function Home() {
+  const services = [
+    {
+      title: "Web Development",
+      url: "/web.jpg",
+      desc:
+        "We build responsive, high-performance websites optimized for speed, accessibility, and modern design standards, ensuring a seamless user experience.",
+    },
+    {
+      title: "App Development",
+      url: "/app.jpg",
+      desc:
+        "Our cross-platform mobile apps run smoothly on both Android and iOS, focusing on performance, scalability, and user-friendly interfaces.",
+    },
+    {
+      title: "UI/UX Design",
+      url: "/uiux.png",
+      desc:
+        "We design visually stunning, interactive interfaces that prioritize user experience—beautiful, usable, and engaging.",
+    },
+    {
+      title: "Logo & Thumbnail Editing",
+      url: "/logothub.jpg",
+      desc:
+        "We create eye-catching logos and thumbnails that reflect your brand and stand out across social platforms and marketing content.",
+    },
+    {
+    title: "SEO Optimization",
+    url: "/seo.jpg", // Make sure this image is in your /public folder
+    icon: "📈",
+    desc:
+      "We enhance your website’s visibility on search engines with smart keyword strategies, technical optimization, and performance improvements.",
+  },
+  {
+    title: "Content Management",
+    url: "/cms.jpg", // Ensure this image exists in /public
+    icon: "🗂️",
+    desc:
+      "We offer efficient content management systems that simplify publishing, editing, and organizing your digital content across platforms.",
+  },
+  ];
+  const projects = [
+  {
+    id: 1,
+    title: "Digital Photo Studio 1",
+    description: "A short description of the project and its purpose.",
+    link: "/projects"
+  },
+  {
+    id: 2,
+    title: "Digital Photo Studio 2",
+    description: "A short description of the project and its purpose.",
+    link: "/projects"
+  },
+  {
+    id: 3,
+    title: "Digital Photo Studio 3",
+    description: "A short description of the project and its purpose.",
+    link: "/projects"
+  }
+];
   return (
     <>
     <Navbar/>
@@ -28,10 +88,10 @@ export default function Home() {
 
       {/* About Section */}
       <section className="py-10 px-12 text-center bg-white flex gap-12 max-md:flex-col">
-       <div className='bg-orange-600 px-8 w-[50%] max-md:w-full max-md:rounded-sm'>
+       <div className='px-8 w-[50%] rounded-b-4xl max-md:w-full max-md:rounded-sm'>
         <div className='p-10'>
            <h2 className="text-3xl font-bold text-orange-400 mb-4">What is MKVerse?</h2>
-           <p className="text-lg text-white max-w-3xl mx-auto p-2">
+           <p className="text-lg text-black max-w-3xl mx-auto p-2">
            MKVerse is a digital studio where innovation meets creativity. We specialize in web and app development, UI/UX design, and visual content creation — all tailored to make your digital presence shine.
           </p>
            <button className="bg-yellow-500 text-black font-semibold px-6 py-3 rounded-full hover:bg-cyan-400 transition">
@@ -51,32 +111,41 @@ export default function Home() {
 
       {/* Services Section */}
       <section id="services" className="py-20 px-6 text-center bg-blue-100">
-        <h2 className="text-3xl font-bold text-cyan-400 mb-10">Our Services</h2>
-        <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 max-w-6xl mx-auto">
-          {[
-            { title: 'Web Development', icon: '💻', desc: 'We build responsive, high-performance websites that are optimized for speed, accessibility, and modern design standards, ensuring a seamless user experience across all devices and platforms.' },
-            { title: 'App Development', icon: '📱', desc: 'Our cross-platform mobile app solutions are crafted to run smoothly on both Android and iOS, with a focus on performance, scalability, and user-friendly interfaces tailored to your goals.' },
-            { title: 'UI/UX Design', icon: '🎨', desc: ' We design visually stunning and intuitively interactive interfaces that prioritize user experience, making sure your product not only looks great but is also easy to use and engaging.' },
-            { title: 'Logo & Thumbnail Editing', icon: '🖼️', desc: 'We create eye-catching logos and thumbnails that reflect your brand identity and grab attention, helping you stand out across social media, websites, and marketing materials.' },
-            { title: 'Custom Projects', icon: '🛠️', desc: 'From unique ideas to complex requirements, we provide fully customized solutions that align with your vision and deliver functionality tailored specifically to your business needs.' },
-          ].map(({ title, icon, desc }) => (
-            <div key={title} className="bg-gray-800 rounded-xl p-6 text-left hover:shadow-xl transition">
-              <div className="text-4xl mb-3 items-center">{icon}</div>
-              <h3 className="text-xl text-orange-500  font-semibold mb-1">{title}</h3>
-              <p className="text-gray-400 text-sm">{desc}</p>
-            </div>
-          ))}
+        <h2 className="text-3xl font-bold text-orange-800  mb-10">Our Services</h2>
+        <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 max-w-7xl mx-auto px-4 py-10">
+      {services.map(({ title, url,desc }) => (
+        <div
+          key={title}
+          className="bg-gray-900 text-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300"
+        >
+          <div className="w-full h-[180px] overflow-hidden p-4">
+            <Image
+              src={url}
+              width={400}
+              height={180}
+              alt={title}
+              className="object-cover w-full h-full"
+            />
+          </div>
+          <div className="p-5 space-y-2">
+            <h3 className="text-lg font-bold text-orange-500">{title}</h3>
+            <p className="text-sm text-gray-300">{desc}</p>
+            <button className='bg-blue-400 rounded-md p-1 hover:bg-amber-400'>Book Now</button>
+          </div>
         </div>
+      ))}
+    </div>
+
       </section>
 
       {/* Featured Projects */}
       <section className="py-20 px-6 bg-gray-900 text-center">
         <h2 className="text-3xl font-bold text-cyan-400 mb-10">Featured Projects</h2>
         <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
-          {[1, 2, 3].map((p) => (
-            <div key={p} className="bg-black border border-gray-700 rounded-xl p-6">
-              <h3 className="text-xl font-semibold mb-2">Project Title {p}</h3>
-              <p className="text-gray-400 text-sm mb-3">A short description of the project and its purpose.</p>
+          {projects.map((item,index) => (
+            <div key={index} className="bg-black border border-gray-700 rounded-xl p-6">
+              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+              <p className="text-gray-400 text-sm mb-3">{item.title}</p>
               <Link href="/projects" className="text-cyan-400 hover:underline">View Project →</Link>
             </div>
           ))}
