@@ -49,18 +49,23 @@ export default function Home() {
   {
     id: 1,
     title: "Digital Photo Studio 1",
+    url:"https://tejdigitalphotography.vercel.app/",
     description: "A short description of the project and its purpose.",
     link: "/projects"
   },
   {
     id: 2,
     title: "Digital Photo Studio 2",
+    url:"https://tejdigitalphotography.vercel.app/",
+
     description: "A short description of the project and its purpose.",
     link: "/projects"
   },
   {
     id: 3,
     title: "Digital Photo Studio 3",
+    url:"https://tejdigitalphotography.vercel.app/",
+
     description: "A short description of the project and its purpose.",
     link: "/projects"
   }
@@ -146,7 +151,7 @@ export default function Home() {
             <div key={index} className="bg-black border border-gray-700 rounded-xl p-6">
               <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
               <p className="text-gray-400 text-sm mb-3">{item.title}</p>
-              <Link href="/projects" className="text-cyan-400 hover:underline">View Project →</Link>
+              <Link href={item.url} className="text-cyan-400 hover:underline">View Project →</Link>
             </div>
           ))}
         </div>
