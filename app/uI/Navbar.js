@@ -25,12 +25,12 @@ return(
         </div>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex space-x-6">
-          <Link href="/" className="hover:text-cyan-400 transition">HOME</Link>
-          <Link href="/projects" className="hover:text-cyan-400 transition">PROJECTS</Link>
-          <Link href="/blogs" className="hover:text-cyan-400 transition">ABOUT</Link>
-          <Link href="/about" className="hover:text-cyan-400 transition">COURSE</Link>
-          <Link href="/contact" className="hover:text-cyan-400 transition">CONTACT</Link>
+        <div className="hidden md:flex space-x-6 font-semibold">
+          <Link href="/" className="hover:text-orange-400 transition">HOME</Link>
+          <Link href="/projects" className="hover:text-orange-400 transition">PROJECTS</Link>
+          <Link href="/blogs" className="hover:text-orange-400 transition">BLOGS</Link>
+          <Link href="/about" className="hover:text-orange-400 transition">COURSE</Link>
+          <Link href="/contact" className="hover:text-orange-400 transition">CONTACT</Link>
         </div>
 
         {/* Mobile menu button */}
@@ -46,7 +46,7 @@ return(
         <div className="md:hidden px-4 pt-4 pb-6 space-y-4 bg-black border-t border-gray-700">
           <Link href="/" className="block hover:text-cyan-400">Home</Link>
           <Link href="/projects" className="block hover:text-cyan-400">Projects</Link>
-          <Link href="/blogs" className="block hover:text-cyan-400">About</Link>
+          <Link href="/blogs" className="block hover:text-cyan-400">BLOGS</Link>
           <Link href="/about" className="block hover:text-cyan-400">Course</Link>
           <Link href="/contact" className="block hover:text-cyan-400">Contact</Link>
         </div>

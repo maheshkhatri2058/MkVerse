@@ -15,6 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Mkverse",
+  icons:'/logo.png',
   description: "Explore Projects, Blogs & Tech Innovations | Web Developer Portfolio",
   keywords: "web developer, portfolio, projects, blogs, tech innovations",
 };
@@ -23,7 +24,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     <Head>
-    <link rel="icon" href="/loo.png"></link>
+    <link rel="icon" type="image/png" href="/logo.png"></link>
 
     </Head>
       <body

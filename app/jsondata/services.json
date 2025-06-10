@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Web Development",
+    "url": "/web.jpg",
+    "desc": "We build responsive, high-performance websites optimized for speed, accessibility, and modern design standards, ensuring a seamless user experience."
+  },
+  {
+    "title": "App Development",
+    "url": "/app.jpg",
+    "desc": "Our cross-platform mobile apps run smoothly on both Android and iOS, focusing on performance, scalability, and user-friendly interfaces."
+  },
+  {
+    "title": "UI/UX Design",
+    "url": "/uiux.png",
+    "desc": "We design visually stunning, interactive interfaces that prioritize user experience—beautiful, usable, and engaging."
+  },
+  {
+    "title": "Logo & Thumbnail Editing",
+    "url": "/logothub.jpg",
+    "desc": "We create eye-catching logos and thumbnails that reflect your brand and stand out across social platforms and marketing content."
+  },
+  {
+    "title": "SEO Optimization",
+    "url": "/seo.jpg",
+    "icon": "📈",
+    "desc": "We enhance your website’s visibility on search engines with smart keyword strategies, technical optimization, and performance improvements."
+  },
+  {
+    "title": "Content Management",
+    "url": "/cms.jpg",
+    "icon": "🗂️",
+    "desc": "We offer efficient content management systems that simplify publishing, editing, and organizing your digital content across platforms."
+  }
+]

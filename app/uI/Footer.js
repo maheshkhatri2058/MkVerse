@@ -20,7 +20,7 @@ const Footer = () => {
 
         {/* Social Icons */}
         <div className="flex gap-4">
-          <a href="https://facebook.com/your-username" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.facebook.com/profile.php?id=61577199869494" target="_blank" rel="noopener noreferrer">
             <Facebook className="hover:text-cyan-400 transition" size={24} />
           </a>
           <a href="https://instagram.com/your-username" target="_blank" rel="noopener noreferrer">
