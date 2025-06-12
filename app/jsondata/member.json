@@ -4,27 +4,36 @@
     "name": "Mahesh Khatri",
     "post": "Founder & Full Stack Developer",
     "description": "Expert in MERN stack, REST APIs, and UI design. Skilled in building responsive, high-performance web apps.",
-    "experience": "Over 3 years of experience working with startups, building scalable web platforms and digital solutions."
+    "experience": "Over 3 years of experience working with startups, building scalable web platforms and digital solutions.",
+    "fburl":"",
+    "insturl":" ",
+    "linkdurl":"https://www.linkedin.com/in/mahesh-khatri-82295622a/"
   },
   {
     "image": "/durpat.jpg",
     "name": "Durpat Balayar",
     "post": "Co-Founder & MERN Stack Developer",
     "description": "Aspiring MERN stack developer with hands-on experience in building full-stack web apps using latest web technologies.",
-    "experience": "2+ years of experience designing engaging interfaces for web and mobile apps across multiple industries."
-  },
-  {
-    "image": "/team/ravi.jpg",
-    "name": "Sagar Khatri",
-    "post": "UI/UX Designer",
-    "description": "Focused on creating intuitive and visually engaging user interfaces across web and mobile platforms.",
-    "experience": "Collaborated with developers and teammates to design responsive screens for applications."
+    "experience": "2+ years of experience designing engaging interfaces for web and mobile apps across multiple industries.",
+     "fburl":"",
+    "insturl":" "
   },
   {
     "image": "/tek.jpg",
     "name": "Tapendra Saud",
     "post": "UI/UX Designer",
     "description": "Creative designer with a passion for clean, user-centered design. Skilled in Figma, Adobe XD, and prototyping tools.",
-    "experience": "Created UI designs using Figma and Adobe XD for multiple student and freelance projects."
+    "experience": "Created UI designs using Figma and Adobe XD for multiple student and freelance projects.",
+     "fburl":"",
+    "insturl":" "
+  },
+  {
+    "image": "/team/ravi.jpg",
+    "name": "Sagar Khatri",
+    "post": "UI/UX Designer",
+    "description": "Focused on creating intuitive and visually engaging user interfaces across web and mobile platforms.",
+    "experience": "Collaborated with developers and teammates to design responsive screens for applications.",
+     "fburl":"",
+    "insturl":" "
   }
 ]
