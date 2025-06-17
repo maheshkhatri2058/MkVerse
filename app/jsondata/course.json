@@ -1,0 +1,68 @@
+[
+  {
+    "title": "Python for Beginners",
+    "url":"/python.jpg",
+    "duration": "4 Weeks",
+    "cost": "₹499",
+    "description": "This beginner-friendly Python course is designed to help you build a strong foundation in programming. Learn core concepts such as variables, data types, control structures, functions, and basic object-oriented programming. You'll also work with real-life examples and simple projects to gain hands-on experience. Whether you’re new to coding or switching from another language, this course will set you on the right path.",
+    "outcome":[
+    { "id": 1,
+     "point": "✅ Understand and apply basic Python syntax, keywords, and indentation." 
+    },
+    { "id": 2,
+     "point": "🧠 Use variables, data types, and operators for simple programming tasks." },
+    { "id": 3,
+     "point": "🔁 Write and debug control flow structures such as if, else, for, and while loops." }
+     ,
+     {
+        "id": 4,
+        "point": "🧮 Define and use functions for code reuse and better program structure."
+     },
+     {
+        "id": 5,
+        "point": "📦 Work with built-in data structures like lists, tuples, dictionaries, and sets."
+     },
+     {
+        "id": 6,
+        "point": "🧰 Handle basic input/output operations and error handling with try-except."
+     },
+     {
+        "id": 7,
+        "point": "🛠️ Build small console-based projects to practice logical thinking and programming skills."
+     }
+  ]
+  },
+  {
+    "title": "Frontend Development from Scratch",
+    "url":"/frontend.jpg",
+    "duration": "6 Weeks",
+    "cost": "₹1499",
+     "outcome":[
+    { "id": 1,
+     "point": "✅ Build fully responsive websites using HTML5 and semantic tags." 
+    },
+    { "id": 2,
+     "point": " 🎨 Style web pages with CSS3, including flexbox, grid, and media queries." },
+    { "id": 3,
+     "point": " 🧠 Understand and apply core JavaScript concepts like variables, loops, functions, and DOM manipulation." }
+     ,
+     {
+        "id": 4,
+        "point": "⚙️ Create dynamic and interactive elements using JavaScript events and logic."
+     },
+     {
+        "id": 5,
+        "point": "🖼️ Use modern styling frameworks like Bootstrap and Tailwind CSS to create beautiful UIs faster."
+     },
+     {
+        "id": 6,
+        "point": "📱 Design responsive layouts that adapt across desktops, tablets, and mobile devices."
+     },
+     {
+        "id": 7,
+        "point": "🌐 Develop mini projects like portfolios, landing pages, and responsive forms."
+     }
+  ],
+    "description": "Kickstart your journey in web development with this comprehensive frontend course. Learn how to build responsive and interactive websites using HTML, CSS, and JavaScript. Dive deep into frameworks like Bootstrap and Tailwind CSS, and explore version control with Git. By the end of this course, you'll be able to create professional-looking websites from scratch and have a solid understanding of modern web development practices."
+  }
+]

@@ -43,7 +43,7 @@ export default function page() {
       Reach out to discuss your ideas or queries — we're happy to help!
     </p>
     <div className="text-sm text-gray-700 space-y-2">
-      <p>📩 <strong>Email:</strong> <a href="mailto:info@mkverse.in" className="text-blue-600 underline">info@mkverse.in</a></p>
+      <p>📩 <strong>Email:</strong> <a href="mailto:mkverse404@gmailcom" className="text-blue-600 underline">mkverse404@gmail.com</a></p>
       <p>📞 <strong>Phone:</strong> +91 12345 67890</p>
       <p>🌐 <strong>Website:</strong> <a href="https://mkverse.in" className="text-blue-600 underline">www.mkverse.in</a></p>
     </div>

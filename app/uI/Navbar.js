@@ -29,7 +29,7 @@ return(
           <Link href="/" className="hover:text-orange-400 transition">HOME</Link>
           <Link href="/projects" className="hover:text-orange-400 transition">PROJECTS</Link>
           <Link href="/blogs" className="hover:text-orange-400 transition">BLOGS</Link>
-          <Link href="/about" className="hover:text-orange-400 transition">COURSE</Link>
+          <Link href="/course" className="hover:text-orange-400 transition">COURSE</Link>
           <Link href="/contact" className="hover:text-orange-400 transition">CONTACT</Link>
         </div>
 
