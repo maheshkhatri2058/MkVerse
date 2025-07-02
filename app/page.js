@@ -34,14 +34,14 @@ export default function Home() {
       <main className="bg-black text-white font-sans">
         {/* Hero Section */}
         <section
-         className="bg-[url('/banner.png')] relative min-h-screen max-sm:min-h-[650px]  flex flex-col justify-center items-center text-center px-6 py-20 max-sm:py-2 bg-blue-100 text-black">
+         className="nbg-[url('/banner.png')]  relative min-h-screen max-sm:min-h-[650px]  flex flex-col justify-center items-center text-center px-6 py-20 max-sm:py-2 bg-gray-100 text-black">
           <div className=" absolute inset-0" />
           <div className="relative z-10 sm:py-2">
           <h1 className="text-4xl md:text-6xl font-bold text-yellow-500 mb-4">
       {text}
       <span className="animate-pulse">|</span>
     </h1>
-            <p className="text-lg md:text-xl text-white max-w-xl mx-auto mb-6">
+            <p className="text-lg md:text-xl text-black max-w-xl mx-auto mb-6">
               "At MKVerse, we transform ideas into powerful digital experiences
               through stunning websites, intuitive apps, and meaningful design"
             </p>
@@ -54,7 +54,7 @@ export default function Home() {
         </section>
 
         {/* About Section */}
-        <section className="py-10 px-12 text-center bg-white flex gap-12 max-sm:p-2 max-md:flex-col-reverse">
+        <section className="py-10 px-20 text-center bg-white flex gap-12 max-sm:p-2 max-md:flex-col-reverse">
             <div className="py-25 max-w:1/2 max-sm:p-2 max-md:w-full">
               <h2 className="text-3xl text-left font-bold text-orange-400 mb-4">
                 What is MKVerse?
@@ -68,7 +68,7 @@ export default function Home() {
               </button>
               </div>
             </div>         
-           <div className="w-1/2 max-sm:px-2">
+           <div className="w-1/2 max-sm:px-2 max-sm:hidden">
             <Image
               src="/bnr3.jpg"
               height={500}

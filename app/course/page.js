@@ -14,7 +14,7 @@ export default function page() {
         {courseData.map((course, index) => (
           <div key={index} className="bg-white p-6 rounded-2xl shadow hover:shadow-md transition">
           <div className="flex">
-          <img src={course.url} className="w-[60%] h-[450px] max-md:h-auto min-md:w[60%]"/>
+          <img src={course.url} className="w-[50%] h-[350px] max-md:h-auto min-md:w[60%]"/>
 
           </div>
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">{course.title}</h2>
