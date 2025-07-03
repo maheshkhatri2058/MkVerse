@@ -2,8 +2,8 @@
 import Link from "next/link";
 import Navbar from "./uI/Navbar";
 import Footer from "./uI/Footer";
+import Project from './project/page'
 import Image from "next/image";
-import projects from "./jsondata/project.json";
 import services from "./jsondata/services.json";
 import teamData from "./jsondata/member.json";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -34,7 +34,7 @@ export default function Home() {
       <main className="bg-black text-white font-sans">
         {/* Hero Section */}
         <section
-         className="nbg-[url('/banner.png')]  relative min-h-screen max-sm:min-h-[650px]  flex flex-col justify-center items-center text-center px-6 py-20 max-sm:py-2 bg-gray-100 text-black">
+         className="bg-[url('/banner.png')]  relative min-h-screen max-sm:min-h-[650px]  flex flex-col justify-center items-center text-center px-6 py-20 max-sm:py-2 bg-gray-100 text-black">
           <div className=" absolute inset-0" />
           <div className="relative z-10 sm:py-2">
           <h1 className="text-4xl md:text-6xl font-bold text-yellow-500 mb-4">
@@ -111,25 +111,8 @@ export default function Home() {
         </section>
 
         {/* Featured Projects */}
-        <section className="py-20 px-6 bg-gray-900 text-center">
-          <h2 className="text-3xl font-bold text-cyan-400 mb-10">
-            Featured Projects
-          </h2>
-          <div className="grid gap-6 md:grid-cols-3 max-w-6xl mx-auto">
-            {projects.map((item, index) => (
-              <div
-                key={index}
-                className="bg-black border border-gray-700 rounded-xl p-6"
-              >
-                <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
-                <p className="text-gray-400 text-sm mb-3">{item.title}</p>
-                <Link href={item.url} className="text-cyan-400 hover:underline">
-                  View Project →
-                </Link>
-              </div>
-            ))}
-          </div>
-        </section>
+        <Project/>
+        
         {/* our team section   */}
         <section className="py-16 bg-white">
           <div className="max-w-6xl mx-auto px-4">

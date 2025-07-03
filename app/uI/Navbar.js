@@ -23,8 +23,8 @@ return(
         {/* Desktop Menu */}
         <div className="hidden md:flex space-x-6 font-normal">
           <Link href="/" className="hover:text-orange-400 transition">HOME</Link>
-          <Link href="/projects" className="hover:text-orange-400 transition">PROJECTS</Link>
-          <Link href="/blogs" className="hover:text-orange-400 transition">BLOGS</Link>
+          <Link href="/project" className="hover:text-orange-400 transition">PROJECTS</Link>
+          <Link href="/blog" className="hover:text-orange-400 transition">BLOGS</Link>
           <Link href="/course" className="hover:text-orange-400 transition">COURSE</Link>
           <Link href="/contact" className="hover:text-orange-400 transition">CONTACT</Link>
         </div>
