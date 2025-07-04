@@ -10,7 +10,7 @@ export default function Nvbar() {
 
 return(
     <>
-      <nav className="bg-gray-200 text-black shadow-md w-full z-50">
+      <nav className="bg-gray-200 text-black shadow-md w-full z-50 border-b-2 border-solid border-gray-400 sticky">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
         {/* Logo / Brand */}
         <Image

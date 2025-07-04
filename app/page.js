@@ -30,13 +30,16 @@ export default function Home() {
   }, []);
   return (
     <>
+    <div className="sticky top-0 z-2">
       <Navbar />
+    
+    </div>
       <main className="bg-black text-white font-sans">
         {/* Hero Section */}
         <section
          className="bg-[url('/banner.png')]  relative min-h-screen max-sm:min-h-[650px]  flex flex-col justify-center items-center text-center px-6 py-20 max-sm:py-2 bg-gray-100 text-black">
           <div className=" absolute inset-0" />
-          <div className="relative z-10 sm:py-2">
+          <div className="relative  sm:py-2">
           <h1 className="text-4xl md:text-6xl font-bold text-yellow-500 mb-4">
       {text}
       <span className="animate-pulse">|</span>

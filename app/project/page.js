@@ -6,19 +6,19 @@ export default function page() {
   const projects = [
     {
       title: "Digital Photo Studio",
-      image: "/project1.jpg",
+      image: "/seo.jpg",
       description: "A full-featured photography portfolio site with booking system and gallery showcase.",
       link: "https://example.com/project1",
     },
     {
       title: "E-commerce Store",
-      image: "/project2.jpg",
+      image: "/seo.jpg",
       description: "An online store with payment gateway, product management, and order tracking.",
       link: "https://example.com/project2",
     },
     {
       title: "Service Booking App",
-      image: "/project3.jpg",
+      image: "/seo.jpg",
       description: "A cross-platform app for booking home services with real-time notifications.",
       link: "https://example.com/project3",
     },
@@ -75,9 +75,10 @@ export default function page() {
   }, [hasAnimated, stats]);
 
   return (
-    <main className="px-4 py-12 max-w-7xl mx-auto">
+    <div className="bg-slate-100">
+           <main className="px-4 py-12 max-w-7xl mx-auto bg-slate-100">
       {/* Projects Header */}
-      <h1 className="text-3xl md:text-4xl font-bold text-center mb-10">
+      <h1 className="text-3xl md:text-4xl font-bold text-center mb-10 text-orange-700">
         Our Projects
       </h1>
 
@@ -127,5 +128,7 @@ export default function page() {
         </div>
       </section>
     </main>
+    </div>
+    
   );
 }
